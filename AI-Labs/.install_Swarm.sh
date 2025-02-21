@@ -8,4 +8,3 @@ fi
 git clone https://github.com/mcmonkeyprojects/SwarmUI Swarm
 cp .launchers/launch-SwarmUI-with-args.sh Swarm
 cd Swarm && ./launch-SwarmUI-with-args.sh
-cd ..

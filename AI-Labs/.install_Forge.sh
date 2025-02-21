@@ -8,4 +8,3 @@ fi
 git clone https://github.com/lllyasviel/stable-diffusion-webui-forge.git Forge
 cp .launchers/launch-ForgeUI-with-args.sh Forge
 cd Forge && ./launch-ForgeUI-with-args.sh
-cd ..

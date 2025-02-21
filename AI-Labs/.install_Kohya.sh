@@ -10,4 +10,3 @@ cp .launchers/launch-Kohya-with-args.sh Kohya
 cd Kohya && ./setup.sh -u
 cd venv/bin/ && ./accelerate config
 cd ../.. && ./launch-Kohya-with-args.sh 
-cd ..
