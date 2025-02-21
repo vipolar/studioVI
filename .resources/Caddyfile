@@ -1,0 +1,40 @@
+:80 {
+    root * /var/www/html
+    file_server
+}
+ 
+:9991 {
+    reverse_proxy localhost:7861
+}
+ 
+:9992 {
+    reverse_proxy localhost:7862
+}
+ 
+:9993 {
+    reverse_proxy localhost:7863
+}
+ 
+:9994 {
+    reverse_proxy localhost:7864
+}
+ 
+:9995 {
+    reverse_proxy localhost:7865
+}
+ 
+:9996 {
+    reverse_proxy localhost:7866
+}
+ 
+:9997 {
+    reverse_proxy localhost:7867
+}
+ 
+:9998 {
+    reverse_proxy localhost:7868
+}
+ 
+:9999 {
+    reverse_proxy localhost:7869
+}
