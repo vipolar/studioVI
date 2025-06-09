@@ -1,0 +1,7 @@
+USER_BASE=$(python3 -m site --user-base)
+USER_BIN="$USER_BASE/bin"
+
+# Check if USER_BIN is already in PATH
+if [[ ":$PATH:" != *":$USER_BIN:"* ]]; then
+    export PATH="$USER_BIN:$PATH"
+fi
