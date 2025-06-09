@@ -1,0 +1,9 @@
+[submodule "studioVI-WEB"]
+	path = studioVI-WEB
+	url = https://github.com/vipolar/studioVI-WEB.git
+[submodule "studioVI-API"]
+	path = studioVI-API
+	url = https://github.com/vipolar/studioVI-API.git
+[submodule "studioVI-LAB"]
+	path = studioVI-LAB
+	url = https://github.com/vipolar/studioVI-LAB.git
